@@ -1,0 +1,47 @@
+/* General Page Styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main Content Area */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Profile Image inside main */
+main img {
+    width: 150px;
+    height: auto;
+}
+
+/* Paragraph Styling */
+p {
+    padding: 0;
+}
+
+/* Aside Section */
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Image inside Aside */
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+/* Footer Styling */
+footer {
+    margin-top: 2rem;
+    border-top: 1px solid #000;
+    text-align: center;
+    padding: 1rem;
+}
