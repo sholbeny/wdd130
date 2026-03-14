@@ -1,28 +1,42 @@
-/* General Page Styling */
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
+/* Navigation */
+nav {
+    background-color: steelblue;
+    padding: 10px;
 }
 
-/* Main Content Area */
+/* Navigation links */
+nav a {
+    color: white;
+    padding: 10px;
+    display: block;
+}
+
+/* Main content */
 main {
     max-width: 800px;
     margin: 0 auto;
 }
 
-/* Profile Image inside main */
+/* Heading */
+h1 {
+    color: steelblue;
+}
+
+/* Profile image */
 main img {
     width: 150px;
     height: auto;
+    border: 1px solid #ccc;
+    padding: 5px;
+    box-shadow: 0 0 30px gray;
 }
 
-/* Paragraph Styling */
+/* Paragraphs */
 p {
     padding: 0;
 }
 
-/* Aside Section */
+/* Aside section */
 aside {
     width: 20rem;
     margin: 1rem;
@@ -32,16 +46,15 @@ aside {
     color: #333;
 }
 
-/* Image inside Aside */
+/* Aside image */
 aside img {
     width: 200px;
     height: auto;
 }
 
-/* Footer Styling */
+/* Footer */
 footer {
     margin-top: 2rem;
     border-top: 1px solid #000;
     text-align: center;
-    padding: 1rem;
 }
