@@ -45,6 +45,12 @@ article {
     padding: 8px;
 }
 
+nav a {
+    text-decoration: none;
+    margin: 10px;
+    color: var(--secondary-color);
+}
+
 /* HERO */
 .hero {
     position: relative;
