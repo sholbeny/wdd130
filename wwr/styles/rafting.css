@@ -161,3 +161,7 @@ footer {
 .socialmedia img {
     width: 30px;
 }
+
+nav a:hover {
+    color: var(--accent1-color);
+}
