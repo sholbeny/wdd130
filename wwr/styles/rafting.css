@@ -305,3 +305,159 @@ button[type="submit"] {
 button[type="submit"]:hover {
     background-color: var(--secondary-color);
 }
+.home-page,
+.trips-page,
+.contact-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.home-hero {
+    position: relative;
+}
+
+.home-hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.home-hero h1 {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.55);
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+}
+
+.newsletter,
+.home-cta,
+.trips-hero,
+.trip-table-section {
+    margin: 2rem 0;
+    padding: 2rem;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+}
+
+.newsletter form {
+    display: grid;
+    gap: 1rem;
+    max-width: 500px;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.newsletter input,
+.contact-form-section input,
+.contact-form-section textarea {
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button,
+.button-link {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #1d4d72;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.home-grid,
+.trip-descriptions {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.trip-descriptions {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-card,
+.trip-card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+}
+
+.grid-card img,
+.trip-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.trip-table-section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.trip-table-section th,
+.trip-table-section td {
+    border: 1px solid #ccc;
+    padding: 0.75rem;
+    text-align: center;
+}
+
+.trip-table-section th {
+    background-color: #1d4d72;
+    color: #fff;
+}
+
+.contact-grid,
+.employee-profiles {
+    display: grid;
+    gap: 2rem;
+}
+
+.contact-grid {
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+}
+
+.employee-profiles {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.employee-profiles img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.map-box iframe {
+    width: 100%;
+    min-height: 300px;
+    border: 0;
+    border-radius: 8px;
+}
+
+@media (max-width: 900px) {
+    .home-grid,
+    .trip-descriptions,
+    .contact-grid,
+    .employee-profiles {
+        grid-template-columns: 1fr;
+    }
+}
