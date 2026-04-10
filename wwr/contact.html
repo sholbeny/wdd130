@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact White Water Rafting Co. for general questions, reservations, website suggestions, and trip information.">
+    <meta name="author" content="Sammi Holbeny">
+    <title>Contact Us | White Water Rafting Co.</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+    <header>
+        <img src="images/rafting.logo.jpg" alt="Rafting Company Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main class="contact-page">
+        <section class="contact-hero">
+            <h1>Contact Us</h1>
+            <p>We would love to hear from you. Reach out with questions, reservation needs, or suggestions.</p>
+        </section>
+
+        <section class="contact-info">
+            <h2>Company Information</h2>
+            <div class="contact-grid">
+                <div class="contact-details">
+                    <p><strong>Address:</strong> 123 River Run Road, Riggins, ID 83549</p>
+                    <p><strong>Phone:</strong> (208) 555-0147</p>
+                    <p><strong>Email:</strong> info@whitewaterraftingco.com</p>
+                </div>
+
+                <div class="map-box">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2889.0274291767585!2d-116.31520192371506!3d45.42255827107368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54a8a9ed9f4c27ab%3A0x5d72e6fd3b7cf65d!2sRiggins%2C%20ID%2083549!5e0!3m2!1sen!2sus!4v1710000000000!5m2!1sen!2sus"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Map showing White Water Rafting Co. location">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+
+        <section class="employees">
+            <h2>Meet Our Team</h2>
+            <div class="employee-profiles">
+                <figure>
+                    <img src="images/employee1.jpg" alt="Portrait of Sarah Lopez, General Manager">
+                    <figcaption>Sarah Lopez — General Manager</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee2.jpg" alt="Portrait of Jake Turner, Lead River Guide">
+                    <figcaption>Jake Turner — Lead River Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee3.jpg" alt="Portrait of Emma Reed, Reservations Specialist">
+                    <figcaption>Emma Reed — Reservations Specialist</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section class="contact-form-section">
+            <h2>Send Us a Message</h2>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Contact Information</legend>
+
+                    <div class="form-item">
+                        <label for="fullname">Full Name</label>
+                        <input type="text" id="fullname" name="fullname" required>
+                    </div>
+
+                    <div class="form-item">
+                        <label for="useremail">Email Address</label>
+                        <input type="email" id="useremail" name="useremail" required>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Purpose of Message</legend>
+
+                    <div class="radio-group">
+                        <label>
+                            <input type="radio" name="purpose" value="general-inquiry" required>
+                            General Inquiry
+                        </label>
+
+                        <label>
+                            <input type="radio" name="purpose" value="reservation-question">
+                            Reservation Question
+                        </label>
+
+                        <label>
+                            <input type="radio" name="purpose" value="website-suggestion">
+                            Website Suggestion
+                        </label>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Your Message</legend>
+
+                    <div class="form-item">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" required></textarea>
+                    </div>
+
+                    <div class="checkbox-item">
+                        <label>
+                            <input type="checkbox" name="newsletter" value="yes">
+                            Please subscribe me to the monthly newsletter
+                        </label>
+                    </div>
+                </fieldset>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 White Water Rafting Co. | Sammi Holbeny</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.png" alt="Visit our Facebook page">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.png" alt="Visit our Instagram page">
+            </a>
+            <a href="https://x.com">
+                <img src="images/twitter.png" alt="Visit our X page">
+            </a>
+        </nav>
+    </footer>
+</body>
+</html>
